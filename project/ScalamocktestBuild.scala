@@ -13,6 +13,7 @@ object ScalamocktestBuild extends Build {
       organization := "org.foo",
       version := "0.1-SNAPSHOT",
       resolvers += "Delving Snapshot Repository" at "http://development.delving.org:8081/nexus/content/repositories/snapshots",
+      resolvers += "Delving Third Party Repository" at "http://development.delving.org:8081/nexus/content/repositories/thirdparty/",
       resolvers += "Sonatype snapshots" at "https://oss.sonatype.org/content/repositories/snapshots/",
       resolvers += "Sonatype releases" at "https://oss.sonatype.org/content/repositories/releases/",
       libraryDependencies += "org.scalamock" %% "scalamock-specs2-support" % "2.4",
